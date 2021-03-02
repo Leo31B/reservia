@@ -1,0 +1,33 @@
+.navbar{
+  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.logo{
+  max-width: 100px;
+  position: absolute;
+  margin-left: 20px;
+}
+
+.bar{
+  width: 115px;
+  height: 2px;
+  background-color: #0065FC;
+  position: relative;
+  left: 100px;
+}
+
+.menu1{
+  color: #0065FC;
+}
+
+.menu2{
+  margin-left: 50px;
+}
+
+.menu3{
+  margin-left: 50px;
+  color: #0065FC;
+}

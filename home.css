@@ -97,6 +97,23 @@
   top: 3px;
 }
 
+.search_ordi{
+  width: 100px;
+  height: 35px;
+  background-color: #0065FC;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  right: 10px;
+}
+
+.search_ordi p{
+  position: relative;
+  left: 13px;
+  bottom: 7px;
+}
+
 /*PHONE*/
 @media screen and (max-width: 813px) {
   .navbar_ordi{
@@ -123,4 +140,18 @@
     height: 2px;
     background-color: #F2F2F2;
   }
+  .search_ordi{
+    display: none;
+  }
 }
+
+/*ORDI*/
+@media screen and (min-width: 813px) {
+  .search_phone{
+    display: none;
+  }
+}
+
+
+
+

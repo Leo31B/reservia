@@ -43,6 +43,15 @@
   color: #0065FC;
 }
 
+.description{
+  padding-left: 22px;
+  padding-right: 20px;
+}
+
+.search_icon{
+  width: 20px;
+}
+
 /*PHONE*/
 @media screen and (max-width: 813px) {
   .navbar_ordi{

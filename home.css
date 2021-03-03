@@ -1,17 +1,24 @@
-.navbar{
-  /*background-color: red;*/
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 50px;
-}
-
 .logo{
   max-width: 100px;
   position: absolute;
   margin-left: 20px;
 }
 
-.bar{
+.navbar_ordi{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.navbar_phone{
+  display: none;
+}
+
+.menu3_phone{
+  display: none;
+}
+
+.bar_ordi{
   width: 115px;
   height: 2px;
   background-color: #0065FC;
@@ -19,15 +26,47 @@
   left: 100px;
 }
 
-.menu1{
+.menu1_phone{
   color: #0065FC;
 }
 
-.menu2{
+.menu1_ordi{
+  color: #0065FC;
+}
+
+.menu2_ordi{
   margin-left: 50px;
 }
 
-.menu3{
+.menu3_ordi{
   margin-left: 50px;
   color: #0065FC;
+}
+
+/*PHONE*/
+@media screen and (max-width: 813px) {
+  .navbar_ordi{
+    display: none;
+  }
+  .navbar_phone{
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu3_phone{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    padding-top: 15px;
+    color: #0065FC;
+  }
+  .bar1_phone{
+    width: 200px;
+    height: 2px;
+    background-color: #0065FC;
+  }
+  .bar2_phone{
+    width: 200px;
+    height: 2px;
+    background-color: #F2F2F2;
+  }
 }

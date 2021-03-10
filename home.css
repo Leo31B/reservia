@@ -23,7 +23,7 @@
   height: 2px;
   background-color: #0065FC;
   position: relative;
-  left: 100px;
+  left: 112px;
 }
 
 .menu1_phone{
@@ -41,6 +41,7 @@
 .menu3_ordi{
   margin-left: 50px;
   color: #0065FC;
+  font-weight: 600;
 }
 
 .description{
@@ -110,8 +111,8 @@
 
 .search_ordi p{
   position: relative;
-  left: 13px;
-  bottom: 7px;
+  left: 6px;
+  bottom: 8px;
 }
 
 /*PHONE*/
@@ -129,6 +130,7 @@
     padding-right: 15px;
     padding-top: 15px;
     color: #0065FC;
+    font-weight: 600;
   }
   .bar1_phone{
     width: 200px;

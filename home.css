@@ -115,6 +115,65 @@
   bottom: 8px;
 }
 
+.filtres{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 22px;
+  padding-top: 10px;
+}
+
+.economique{
+  border: 2px solid #F2F2F2;
+  border-radius: 25px;
+  height: 35px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.economique h3{
+  position: relative;
+  bottom: 12px;
+}
+
+.familial{
+  border: 2px solid #F2F2F2;
+  border-radius: 25px;
+  height: 35px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.familial h3{
+  position: relative;
+  bottom: 12px;
+}
+
+.romantique{
+  border: 2px solid #F2F2F2;
+  border-radius: 25px;
+  height: 35px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.romantique h3{
+  position: relative;
+  bottom: 12px;
+}
+.animaux{
+  border: 2px solid #F2F2F2;
+  border-radius: 25px;
+  height: 35px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.animaux h3{
+  position: relative;
+  bottom: 12px;
+}
+
 /*PHONE*/
 @media screen and (max-width: 813px) {
   .navbar_ordi{

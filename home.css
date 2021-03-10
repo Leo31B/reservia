@@ -120,15 +120,16 @@
   display: flex;
   justify-content: space-between;
   padding-left: 22px;
-  padding-top: 10px;
+  margin-top: 20px;
 }
 
 .economique{
   border: 2px solid #F2F2F2;
   border-radius: 25px;
   height: 35px;
-  padding-left: 50px;
   padding-right: 20px;
+  margin-top: 10px;
+  display: flex;
 }
 
 .economique h3{
@@ -136,12 +137,30 @@
   bottom: 12px;
 }
 
+.money_icon{
+  width: 39px;
+  height: 39px;
+  background-color: #DEEBFF;
+  border-radius: 50%;
+  margin-right: 15px;
+  position: relative;
+  right: 2px;
+  bottom: 2px;
+}
+
+.money_icon img{
+  position: relative;
+  left: 8px;
+  top: 10px;
+}
+
 .familial{
   border: 2px solid #F2F2F2;
   border-radius: 25px;
   height: 35px;
-  padding-left: 50px;
   padding-right: 20px;
+  margin-top: 10px;
+  display: flex;
 }
 
 .familial h3{
@@ -149,29 +168,95 @@
   bottom: 12px;
 }
 
+.child_icon{
+  width: 39px;
+  height: 39px;
+  background-color: #DEEBFF;
+  border-radius: 50%;
+  margin-right: 15px;
+  position: relative;
+  right: 2px;
+  bottom: 2px;
+}
+
+.child_icon img{
+  position: relative;
+  left: 12px;
+  top: 10px;
+}
+
 .romantique{
   border: 2px solid #F2F2F2;
   border-radius: 25px;
   height: 35px;
-  padding-left: 50px;
   padding-right: 20px;
+  margin-top: 10px;
+  display: flex;
 }
 
 .romantique h3{
   position: relative;
   bottom: 12px;
 }
+
+.heart_icon{
+  width: 39px;
+  height: 39px;
+  background-color: #DEEBFF;
+  border-radius: 50%;
+  margin-right: 15px;
+  position: relative;
+  right: 2px;
+  bottom: 2px;
+}
+
+.heart_icon img{
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
 .animaux{
   border: 2px solid #F2F2F2;
   border-radius: 25px;
   height: 35px;
-  padding-left: 50px;
   padding-right: 20px;
+  margin-top: 10px;
+  display: flex;
 }
 
 .animaux h3{
   position: relative;
   bottom: 12px;
+}
+
+.dog_icon{
+  width: 39px;
+  height: 39px;
+  background-color: #DEEBFF;
+  border-radius: 50%;
+  margin-right: 15px;
+  position: relative;
+  right: 2px;
+  bottom: 2px;
+}
+
+.dog_icon img{
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.information{
+  display: flex;
+}
+
+.information_icon img{
+  width: 25px;
+  position: relative;
+  top: 12px;
+  margin-left: 22px;
+  margin-right: 10px;
 }
 
 /*PHONE*/

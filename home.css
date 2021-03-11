@@ -262,6 +262,106 @@
   margin-right: 10px;
 }
 
+.resultats_logement{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hebergement{
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.cases_hebergement{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.case1{
+  background-color: white;
+  border-radius: 15px;
+  width: 210px;
+  height: 225px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
+}
+
+.case1 img{
+  width: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.case1 p{
+  padding-left: 15px;
+  line-height: 20px;
+}
+
+.stars1{
+  display: flex;
+  padding-left: 10px;
+  position: relative;
+  bottom: 15px;
+}
+
+.stars1 img{
+  width: 15px;
+}
+
+.populaires{
+  background-color: #F2F2F2;
+  padding: 15px;
+}
+
+.graph{
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.graph img{
+  width: 20px;
+}
+
+.case2{
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  height: 155px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.15));
+}
+
+.case2 img{
+  width: 140px;
+  height: 145px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+}
+
+.stars2{
+  display: flex;
+  padding-left: 10px;
+  position: relative;
+  bottom: 15px;
+  right: 15px;
+}
+
+.stars2 img{
+  width: 15px;
+}
+
 /*PHONE*/
 @media screen and (max-width: 813px) {
   .navbar_ordi{
@@ -292,12 +392,44 @@
   .search_ordi{
     display: none;
   }
+  .resultats_logement{
+    flex-wrap: wrap-reverse;
+  }
+  .case1{
+    width: 295px;
+  }
+  .case1 img{
+  width: 285px;
+  height: 135px;
+  }
+  .stars1{
+    width: 100px;
+    position: relative;
+    bottom: 75px;
+  }
+  #fixresponsive{
+    position: relative;
+    bottom: 35px;
+  }
 }
 
 /*ORDI*/
 @media screen and (min-width: 813px) {
   .search_phone{
     display: none;
+  }
+  .resultats_logement{
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+  .populaires{
+    border-radius: 15px;
+    width: 40%;
+  }
+  .hebergement{
+    background-color: #F2F2F2;
+    max-width: 60%;
+    margin-right: 30px;
   }
 }
 

@@ -496,6 +496,33 @@
     position: relative;
     bottom: 35px;
   }
+  .caseL1{
+    width: 310px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  .caseL1 img{
+    width: 310px;
+    height: 130px;
+  }
+  .caseM1{
+    width: 310px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  .caseM1 img{
+    width: 310px;
+    height: 130px;
+  }
+  .caseS1{
+    width: 310px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  .caseS1 img{
+    width: 310px;
+    height: 130px;
+  }
 }
 
 /*ORDI*/

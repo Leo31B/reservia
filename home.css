@@ -10,8 +10,16 @@
   padding-right: 25px;
 }
 
+.navbar_ordi a {
+  text-decoration: none;
+}
+
 .navbar_phone{
   display: none;
+}
+
+.navbar_phone a {
+  text-decoration: none;
 }
 
 .menu3_phone{
@@ -30,12 +38,17 @@
   color: #0065FC;
 }
 
+.menu2_phone {
+  color: black;
+}
+
 .menu1_ordi{
   color: #0065FC;
 }
 
 .menu2_ordi{
   margin-left: 50px;
+  color: black;
 }
 
 .menu3_ordi{
@@ -68,11 +81,10 @@
   padding-top: 8px;
 }
 
-.box{
-  border: solid 1px #F2F2F2;
+input{
   width: 250px;
-  height: 33px;
-  padding-left: 10px;
+  height: 31px;
+  border: 1px solid #F2F2F2;
 }
 
 .box h3 {
@@ -105,8 +117,6 @@
   color: white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  position: relative;
-  right: 10px;
 }
 
 .search_ordi p{
@@ -141,6 +151,10 @@
   bottom: 12px;
 }
 
+.economique:hover{
+  background-color: #DEEBFF;
+}
+
 .money_icon{
   width: 39px;
   height: 39px;
@@ -171,6 +185,10 @@
 .familial h3{
   position: relative;
   bottom: 12px;
+}
+
+.familial:hover{
+  background-color: #DEEBFF;
 }
 
 .child_icon{
@@ -205,6 +223,10 @@
   bottom: 12px;
 }
 
+.romantique:hover{
+  background-color: #DEEBFF;
+}
+
 .heart_icon{
   width: 39px;
   height: 39px;
@@ -235,6 +257,10 @@
 .animaux h3{
   position: relative;
   bottom: 12px;
+}
+
+.animaux:hover{
+  background-color: #DEEBFF;
 }
 
 .dog_icon{
@@ -564,13 +590,27 @@
   }
   .part1{
   margin-right: 250px;
+  }
+  .part2{
+    margin-right: 250px;
+  }
+}
+/*Ipad*/
+@media only screen and (max-width: 1024px) and (max-height: 768px) and (orientation: landscape){
+  .fixresponsive{
+    bottom: 35px;
+  }
+  .fixresponsive2{
+    position: relative;
+    bottom: 55px;
+  }
 }
 
-.part2{
-  margin-right: 250px;
+/*Ipad Pro 10,5*/
+@media only screen and (min-width: 1025px) and (max-width: 1112px) and (max-height: 834px) and (orientation: landscape) {
+  .fixresponsive{
+    bottom: 35px;
+  }
 }
-}
-
-
 
 

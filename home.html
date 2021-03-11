@@ -19,17 +19,17 @@
 
     <p class="menu3_phone">S'inscrire</p>
 
-    <section class="navbar_ordi">
+    <div class="navbar_ordi">
       <div class="bar_ordi"></div>
-      <p class="menu1_ordi">Hébergements</p>
-      <p class="menu2_ordi">Activités</p>
+      <a href="#ancre1"><p class="menu1_ordi">Hébergements</p></a>
+      <a href="#ancre2"><p class="menu2_ordi">Activités</p></a>
       <p class="menu3_ordi">S'inscrire</p>
-    </section>
+    </div>
 
-    <section class="navbar_phone">
-      <p class="menu1_phone">Hébergements</p>
-      <p class="menu2_phone">Activités</p>
-    </section>
+    <div class="navbar_phone">
+      <a href="#ancre1"><p class="menu1_phone">Hébergements</p></a>
+      <a href="#ancre2"><p class="menu2_phone">Activités</p></a>
+    </div>
     <div style="display:flex; justify-content: center">
       <div class="bar1_phone"></div>
       <div class="bar2_phone"></div>
@@ -41,22 +41,20 @@
       <p>En plein centre ville ou en pleine nature</p>
     </div>
 
-    <section class="searchbar">
+    <div class="searchbar">
       <div class="marker_icon">
         <img src="map-marker.svg" alt="marker">
       </div>
-      <div class="box">
-        <h3>Marseille, France</h3>
-      </div>
+        <input type="text">
       <div class="search_ordi">
         <p>Rechercher</p>
       </div>
       <div class="search_phone">
         <img src="search.svg" alt="search">
       </div>
-    </section>
+    </div>
 
-    <section class="filtres">
+    <div class="filtres">
       <div id="resp">
         <h3>Filtres</h3>
       </div>
@@ -84,7 +82,7 @@
         </div>
         <h3>Animaux autorisés</h3>
       </div>
-    </section>
+    </div>
 
     <div class="information">
       <div class="information_icon">
@@ -94,7 +92,7 @@
     </div>
 
     <!-- Hébergements -->
-    <section class="resultats_logement">
+    <div class="resultats_logement" id="ancre1">
       <div class="hebergement">
         <h3>Hébergements à Marseille</h3>
         <div class="cases_hebergement">
@@ -178,7 +176,7 @@
           <img src="img7small.jpg" alt="Hôtel le soleil de matin">
           <div style="display: block">
             <p><strong>Hôtel le soleil de matin</strong> <br> Nuit à partir de <strong>128€</strong></p>
-            <div class="stars2">
+            <div class="stars2 fixresponsive2">
               <img src="bluestar.svg" alt="star">
               <img src="bluestar.svg" alt="star">
               <img src="bluestar.svg" alt="star">
@@ -214,14 +212,14 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Activités -->
     <div class="titre_activites">
-      <h3>Activités à Marseille</h3>
+      <h3 id="ancre2">Activités à Marseille</h3>
     </div>
 
-    <section>
+    <div>
       <div class="activites">
         <div class="caseL1">
           <img src="img1medium.jpg" alt="Vieux Port">
@@ -252,10 +250,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Footer -->
-    <section class="footer">
+    <div class="footer">
       <div class="part1">
         <p><strong>À propos</strong></p>
         <p style="line-height: 35px;">Fonctionnement du site <br> Conditions générales de vente <br> Données et confidentialité</p>
@@ -268,7 +266,7 @@
         <p><strong>Assistance</strong></p>
         <p style="line-height: 35px;">Centre d'aide <br> Nous contacter</p>
       </div>
-    </section>
+    </div>
 
   </body>
 </html>

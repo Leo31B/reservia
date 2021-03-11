@@ -81,11 +81,10 @@
   padding-top: 8px;
 }
 
-.box{
-  border: solid 1px #F2F2F2;
+input{
   width: 250px;
-  height: 33px;
-  padding-left: 10px;
+  height: 31px;
+  border: 1px solid #F2F2F2;
 }
 
 .box h3 {
@@ -118,8 +117,6 @@
   color: white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  position: relative;
-  right: 10px;
 }
 
 .search_ordi p{

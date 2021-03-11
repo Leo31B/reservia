@@ -45,8 +45,8 @@
 }
 
 .description{
-  padding-left: 22px;
-  padding-right: 20px;
+  margin-left: 22px;
+  margin-right: 10px;
 }
 
 .searchbar{
@@ -122,11 +122,15 @@
   margin-top: 20px;
 }
 
+#resp{
+  margin-right: 40px;
+}
+
 .economique{
   border: 2px solid #F2F2F2;
   border-radius: 25px;
   height: 35px;
-  width: 180px;
+  width: 165px;
   margin-top: 10px;
   margin-right: 20px;
   display: flex;
@@ -142,7 +146,7 @@
   height: 39px;
   background-color: #DEEBFF;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 5px;
   position: relative;
   right: 2px;
   bottom: 2px;
@@ -158,7 +162,7 @@
   border: 2px solid #F2F2F2;
   border-radius: 25px;
   height: 35px;
-  width: 140px;
+  width: 125px;
   margin-top: 10px;
   margin-right: 25px;
   display: flex;
@@ -174,7 +178,7 @@
   height: 39px;
   background-color: #DEEBFF;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 5px;
   position: relative;
   right: 2px;
   bottom: 2px;
@@ -190,7 +194,7 @@
   border: 2px solid #F2F2F2;
   border-radius: 25px;
   height: 35px;
-  width: 180px;
+  width: 165px;
   margin-top: 10px;
   margin-right: 25px;
   display: flex;
@@ -206,7 +210,7 @@
   height: 39px;
   background-color: #DEEBFF;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 5px;
   position: relative;
   right: 2px;
   bottom: 2px;
@@ -222,7 +226,7 @@
   border: 2px solid #F2F2F2;
   border-radius: 25px;
   height: 35px;
-  width: 235px;
+  width: 220px;
   margin-top: 10px;
   margin-right: 25px;
   display: flex;
@@ -238,7 +242,7 @@
   height: 39px;
   background-color: #DEEBFF;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 5px;
   position: relative;
   right: 2px;
   bottom: 2px;
@@ -265,7 +269,7 @@
 .resultats_logement{
   display: flex;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .hebergement{
@@ -296,6 +300,7 @@
   border-top-right-radius: 15px;
   padding-top: 5px;
   padding-left: 5px;
+  object-fit: cover;
 }
 
 .case1 p{
@@ -312,6 +317,7 @@
 
 .stars1 img{
   width: 15px;
+  object-fit: fill;
 }
 
 .populaires{
@@ -348,6 +354,7 @@
   padding-left: 5px;
   padding-bottom: 5px;
   margin-right: 5px;
+  object-fit: cover;
 }
 
 .stars2{
@@ -360,6 +367,81 @@
 
 .stars2 img{
   width: 15px;
+  object-fit: fill;
+}
+
+.titre_activites{
+  margin-left: 22px;
+  margin-bottom: 20px;
+}
+
+.activites{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.caseL1{
+  margin-left: 22px;
+  border-radius: 15px;
+  width: 300px;
+  height: 435px;
+  box-shadow: 5px 5px 5px #F2F2F2;
+  margin-right: 10px;
+}
+
+.caseL1 img{
+  width: 300px;
+  height: 380px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.caseL1 p{
+  padding-left: 15px;
+}
+
+.caseM1{
+  margin-left: 22px;
+  margin-right: 12px;
+  border-radius: 15px;
+  width: 300px;
+  height: 230px;
+  box-shadow: 5px 5px 5px #F2F2F2;
+  margin-bottom: 40px;
+}
+
+.caseM1 img{
+  width: 300px;
+  height: 175px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.caseM1 p{
+  padding-left: 15px;
+}
+
+.caseS1{
+  margin-left: 22px;
+  border-radius: 15px;
+  width: 300px;
+  height: 165px;
+  box-shadow: 5px 5px 5px #F2F2F2;
+}
+
+.caseS1 img{
+  width: 300px;
+  height: 110px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.caseS1 p{
+  padding-left: 15px;
 }
 
 /*PHONE*/
@@ -392,6 +474,9 @@
   .search_ordi{
     display: none;
   }
+  #resp{
+    margin-right: 100px;
+  }
   .resultats_logement{
     flex-wrap: wrap-reverse;
   }
@@ -410,6 +495,33 @@
   #fixresponsive{
     position: relative;
     bottom: 35px;
+  }
+  .caseL1{
+    width: 310px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  .caseL1 img{
+    width: 310px;
+    height: 130px;
+  }
+  .caseM1{
+    width: 310px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  .caseM1 img{
+    width: 310px;
+    height: 130px;
+  }
+  .caseS1{
+    width: 310px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  .caseS1 img{
+    width: 310px;
+    height: 130px;
   }
 }
 

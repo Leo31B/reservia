@@ -10,8 +10,16 @@
   padding-right: 25px;
 }
 
+.navbar_ordi a {
+  text-decoration: none;
+}
+
 .navbar_phone{
   display: none;
+}
+
+.navbar_phone a {
+  text-decoration: none;
 }
 
 .menu3_phone{
@@ -30,12 +38,17 @@
   color: #0065FC;
 }
 
+.menu2_phone {
+  color: black;
+}
+
 .menu1_ordi{
   color: #0065FC;
 }
 
 .menu2_ordi{
   margin-left: 50px;
+  color: black;
 }
 
 .menu3_ordi{
@@ -564,13 +577,27 @@
   }
   .part1{
   margin-right: 250px;
+  }
+  .part2{
+    margin-right: 250px;
+  }
+}
+/*Ipad*/
+@media only screen and (max-width: 1024px) and (max-height: 768px) and (orientation: landscape){
+  .fixresponsive{
+    bottom: 35px;
+  }
+  .fixresponsive2{
+    position: relative;
+    bottom: 55px;
+  }
 }
 
-.part2{
-  margin-right: 250px;
+/*Ipad Pro 10,5*/
+@media only screen and (min-width: 1025px) and (max-width: 1112px) and (max-height: 834px) and (orientation: landscape) {
+  .fixresponsive{
+    bottom: 35px;
+  }
 }
-}
-
-
 
 

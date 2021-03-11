@@ -154,6 +154,10 @@
   bottom: 12px;
 }
 
+.economique:hover{
+  background-color: #DEEBFF;
+}
+
 .money_icon{
   width: 39px;
   height: 39px;
@@ -184,6 +188,10 @@
 .familial h3{
   position: relative;
   bottom: 12px;
+}
+
+.familial:hover{
+  background-color: #DEEBFF;
 }
 
 .child_icon{
@@ -218,6 +226,10 @@
   bottom: 12px;
 }
 
+.romantique:hover{
+  background-color: #DEEBFF;
+}
+
 .heart_icon{
   width: 39px;
   height: 39px;
@@ -248,6 +260,10 @@
 .animaux h3{
   position: relative;
   bottom: 12px;
+}
+
+.animaux:hover{
+  background-color: #DEEBFF;
 }
 
 .dog_icon{

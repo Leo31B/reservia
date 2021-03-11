@@ -444,6 +444,21 @@
   padding-left: 15px;
 }
 
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 97vw;
+  height: 180px;
+  background-color: #F2F2F2;
+  padding: 22px;
+  position: relative;
+  right: 10px;
+}
+
+.part2{
+  margin-right: 100px;
+}
+
 /*PHONE*/
 @media screen and (max-width: 813px) {
   .navbar_ordi{
@@ -523,6 +538,10 @@
     width: 310px;
     height: 130px;
   }
+  .footer{
+    width: 90vw;
+    height: 425px;
+  }
 }
 
 /*ORDI*/
@@ -543,6 +562,13 @@
     max-width: 60%;
     margin-right: 30px;
   }
+  .part1{
+  margin-right: 250px;
+}
+
+.part2{
+  margin-right: 250px;
+}
 }
 
 

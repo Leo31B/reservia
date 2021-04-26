@@ -84,6 +84,8 @@ input{
   width: 250px;
   height: 31px;
   border: 1px solid #F2F2F2;
+  font-weight: 600;
+  padding-left: 10px;
 }
 
 .box h3 {
@@ -351,11 +353,11 @@ input{
   margin-left: 4px;
 }
 
-#blue{
+.blue{
   color: #0065FC;
 }
 
-#grey{
+.grey{
   color: #e9ecef;
 }
 

@@ -487,17 +487,24 @@ input{
 
 .footer{
   display: flex;
-  flex-wrap: wrap;
-  width: 97vw;
-  height: 180px;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #F2F2F2;
   padding: 22px;
-  position: relative;
-  right: 10px;
+  width: 100%;
+}
+
+.part1 {
+  line-height: 35px;
 }
 
 .part2{
-  margin-right: 100px;
+  line-height: 35px;
+}
+
+.part3{
+  line-height: 35px;
+  margin-right: 300px;
 }
 
 /*PHONE*/
@@ -570,13 +577,12 @@ input{
     width: 310px;
     height: 130px;
   }
-  .footer{
-    width: 90vw;
-    height: 425px;
-  }
   .fixresponsive2{
     position: relative;
     top: 59px;
+  }
+  .footer {
+    flex-direction: column;
   }
 }
 
@@ -597,12 +603,6 @@ input{
     background-color: #F2F2F2;
     max-width: 60%;
     margin-right: 30px;
-  }
-  .part1{
-    margin-right: 250px;
-  }
-  .part2{
-    margin-right: 250px;
   }
   .information_icon{
     margin-left: 20px;
